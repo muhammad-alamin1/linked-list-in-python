@@ -11,7 +11,7 @@ class Node:
 
 class DoublyLinkedList:
     def __init__(self):
-        self.head = None()
+        self.head = Node()
 
     def __repr__(self):
         nodes = []
